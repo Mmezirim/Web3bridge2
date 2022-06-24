@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div class="one">
+                 <ul class="no">
+                   <li><b>Snap</b></li>
+                   <li><a href="">Features <img src="./icon-arrow-down.svg" alt=""></a></li></br>
+                   <li><a href="">Company <img src="./icon-arrow-down.svg" alt=""></a></li></br>
+                   <li><a href="">Career</a></li></br>
+                   <li><a href="">About</a></li></br>
+                  </ul>
+             
+                   <ul class="no">
+                   <li>login</li>
+                   <li><input id="age" value="18"><button onclick="myFunction()" class="button">Register</button></li>
+                   <p style="font-size: 20px;" id="demo"></p>
+                   <script>
+                    function myFunction() {
+                      let age = document.getElementById("age").value;
+                      let applicable = (age < 18) ? "Too young":"Success!!";
+                      document.getElementById("demo").innerHTML = applicable ;
+                    }
+                    </script>
+                 </ul>
+           </div>
+   <div class="three">
+    <div class="end">
+        <img src="./image-hero-desktop.png" alt="5">
+    </div>
+       <div class="four">
+           <h1>Make <br>remote work</h1>
+           <br>
+           <br>
+           <br>
+           <p>
+               Get your team in sync, no matter your location. Streamline processes, create team rituals and watch productivity soar.
+           </p>
+           <br>
+           <br>
+           <br>
+           <button class="button2">Learn more</button>
+           <br>
+           <br>
+           <br>
+           <div class="code">
+              <br><img src="./client-databiz.svg" alt="1">
+              <br><img src="./client-audiophile.svg" alt="2">
+              <br><img src="./client-meet.svg" alt="3">
+              <br><img src="./client-maker.svg" alt="4">
+           </div>
+       </div>
+       
+</div>
+     
+</body>
+</html>

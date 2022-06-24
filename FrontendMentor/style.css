@@ -1,0 +1,84 @@
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.no{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    display: flex;
+    list-style: none;
+    border: 2rem solid hsl(0, 0%, 100%);
+    color: off-white;
+    padding: -2rem; 
+    cursor: pointer;  
+}
+.style{
+    width: 10rem;
+    cursor: progress;
+}
+b{
+    font-size: 80px;
+    margin-top: -1.2rem;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.four{
+    display: flex;
+    max-width: 35%;
+    min-height: 100rem;
+    flex-direction: column;
+    margin-left:10rem ;
+    justify-content: right;
+}
+.button{
+    background-color: rgb(183, 183, 183);
+    height: 5rem;
+    width: 10rem;
+}
+.button2{
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 4rem;
+    color: rgb(235, 235, 235);
+    background-color: black;
+    font-size: 20px;
+    cursor: progress;
+}
+.code{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5rem;
+}
+.end{
+    max-width: 35%;
+    margin-right: 20rem;
+    float: left;
+}
+@media screen and (max-width:370px) {
+    body{
+        max-width: fit-content;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .one{
+        flex-direction: column;
+        width:50px;
+        height: 100%;
+    }
+    .no{
+        flex-direction: column;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        width: 10px;
+    }
+}
